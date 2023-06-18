@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/MemeDef[defName="Structure_TheistEmbodied"]/deityCount</xpath>
+        <value><deityCount>1~20</deityCount></value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/MemeDef[defName="Structure_TheistAbstract"]/deityCount</xpath>
+        <value><deityCount>1~20</deityCount></value>
+    </Operation>
+</Patch>
